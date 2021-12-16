@@ -1,0 +1,19 @@
+{
+  "name": "urluniquifier",
+  "version": "1.0.0",
+  "description": "Detach duplicate URLs from provided input/file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirhosseinBidokhti/urlUniquifier.git"
+  },
+  "author": "Amirhossein",
+  "bugs": {
+    "url": "https://github.com/AmirhosseinBidokhti/urlUniquifier/issues"
+  },
+  "homepage": "https://github.com/AmirhosseinBidokhti/urlUniquifier#readme"
+}
