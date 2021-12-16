@@ -21,7 +21,9 @@ urls.map((URL) => {
 
   // Here is evaluted when url has query params
   // Extract the query params and make a string with domain and path
-  // Check if exist or no in our unique map
+  // Create a domain+path+sorted(queryParams) string and make it our Map key
+  // Now check if the key already exists or not
+  // If it does not exist smple create a new map entry 
   paramKeys = paramKeys.sort().join("&");
 
   let urlWithParams = domainPath + "?" + paramKeys;
